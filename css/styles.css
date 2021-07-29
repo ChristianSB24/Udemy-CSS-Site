@@ -2,31 +2,81 @@ body {
     margin: 0px;
     text-align: center;
     font-family: 'Merriweather', serif;
+    color: #40514E;
 }
 
-div {
-    background-color: #E4F9F5
+hr { 
+    border-style: dotted none none none;
+    border-width: thick;
+    width: 3%;
+    border-color: #d6e0e0
 }
 
 h1 {
     font-family: 'Sacramento', sans-serif;
-    margin-top: 0px;
+    font-size: 5.62rem;
+    color: rgb(49, 170, 170);
+    margin: 50px auto 0px auto;
+}
+
+h2 { 
+    font-weight: normal;
+    color: rgb(49, 170, 170);
+    font-size: 2.5rem;
+}
+
+h3 {
+    color: #11999E;
+}
+
+.footer-link {
+    color: #11999E;
+    margin: 0 50px 0 50px;
+    text-decoration: none;
+}
+
+.copyright1 {
+    color: #eaf6f6;
+    font-size:.75rem;
+    margin: 50px 0 0 0;
+}
+
+.copyright2 {
+    color: #eaf6f6;
+    font-size:.75rem;
+}
+
+a:hover {
+    color: #eaf6f6;
 }
 
 span {
     text-decoration: underline;
 }
 
+p {
+    line-height: 2
+}
+
+.intro {
+    width: 30%;
+    margin: 0 auto 0 auto
+}
+
+img {
+    width: 
+}
+
 .top-cloud {
     position: absolute;
-    top: 30px;
-    right: 450px;
+    top: 70px;
+    right: 300px;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 400px;
-    top: 150px;
+    left: 350px;
+    top: 350px;
 }
 
 .top-container {
@@ -35,14 +85,45 @@ span {
     padding-top: 100px
 }
 
-.middle-container {
-    background-color: red;
-    height: 200px;
-    width: 200px;
+.bottom-container {
+    color: #EAF6F6;
+    background-color: #66bfbf;
+    padding: 50px;
 }
 
-.bottom-container {
-    background-color: blue;
-    height: 200px;
-    width: 200px;
+.skill-row {
+    margin: 50px auto 50px auto;
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    line-height:2;
 }
+
+
+
+.computer2 {
+    margin: 0 30px 0 auto;
+    width: 25%;
+    float: left;
+}
+
+.python {
+    margin: 0 auto 0 30px;
+    width: 25%;
+    float: right;
+}
+
+.BUTTON_WNQ {
+    margin: 50px 0 60px 0;
+    background: #66BFBF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: 'Merriweather', serif;
+    font-weight: 100;
+    padding: 10px;
+    border: solid #66BFBF 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
